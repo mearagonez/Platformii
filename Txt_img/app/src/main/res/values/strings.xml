@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Txt_img</string>
+    <string name="imagen_ejemplo">Ejemplo</string>
+    <string name="usuario">Escribe numero:</string>
+</resources>

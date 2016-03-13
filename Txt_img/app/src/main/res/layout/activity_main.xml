@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nightware17.txt_img.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero par e impar"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImgFoto"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/imagen_ejemplo"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="70dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_Etiqueta"
+        android:text="Escribe algo: "
+        android:background="@color/colorInput"
+        android:typeface="monospace"
+        android:layout_alignBottom="@+id/ImgFoto"
+        android:layout_toEndOf="@+id/ImgFoto" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtImgeHint"
+        android:drawableLeft="@mipmap/ic_user"
+        android:hint="@string/usuario"
+        android:textColorHint="@color/colortext"
+        android:inputType="text"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/btncalcular"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/lbl_Etiqueta"
+        android:layout_centerHorizontal="true"
+        android:onClick="calcular" />
+</RelativeLayout>
