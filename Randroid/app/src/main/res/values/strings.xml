@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Randroid</string>
+    <string-array name="real_madrid">
+        <item>Ronaldo</item>
+        <item>Kroos</item>
+        <item>Benzema</item>
+        <item>Keylor</item>
+        <item>Ramos</item>
+        <item>Carvajal</item>
+        <item>Varane</item>
+        <item>Bale</item>
+        <item>James</item>
+        <item>Zidane</item>
+        <item>Isco</item>
+        <item>Casemiro</item>
+        <item>Casilla</item>
+        <item>Danilo</item>
+        <item>Modric</item>
+    </string-array>
+
+    <array name="rainbow">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+        <item>@color/color13</item>
+        <item>@color/color14</item>
+        <item>@color/color15</item>
+    </array>
+</resources>
