@@ -48,11 +48,12 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#ffff00"
         android:layout_above="@+id/btn_save"
         android:layout_alignRight="@+id/txt_name"
         android:layout_alignEnd="@+id/txt_name"
-        android:gravity="top|left" />
+        android:gravity="top|left"
+        android:background="@drawable/edittext"
+        />
 
     <Button
         android:layout_width="wrap_content"
